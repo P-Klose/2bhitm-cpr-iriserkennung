@@ -1,22 +1,22 @@
-# Temperaturmessung mittels Infrarotkamera und ResPi
+# Iris Erkennung mittels Kamera und ResPi
 
 ## Überblick
 ### 
 
 ## Ziele
-* Erkennen der Körpertemperatur
-* Formatierte Ausgabe
-* Alarm bei einer überhöten Temperatur
+* Erkennen der Iris
+* Server läuft
+* Iris erkennbar
+* Ansprechendes Design
+* Abglichen von Mustern (ist es einer der Ersteller)
 * Programmier Sprache JS
 
 ## Nicht Ziele
-* Gesichtserkennung mit Namen
+* Erkennung mit Namen
 
 ## Themenbeschreibung
-  Es wird eine Schaltung Aufgebaut die Mithilfe einer Infrarotkammera die Körperatemperatur misst und diese anschließend Ausgibt.
-  Ob eine generelle Messung z.B.: durch aufhängen der Kamera über dem Eingang ist noch definiert weil noch nicht getestet werden konte ob die Kamerea nur in einem bestimten Bereich fonktioniert.
-  Weites wird ein Diagramm erstellt das eine Statistik ausgibt und berechnet. Die Sprache die wir verwenden wollen, soll Java Script sein wenn nicht möglich dann 
-  Java. 
+  Es wird eine Schaltung und ein Programm entwickelt, das mithilfe von einer Kamera und der nötigen Soft und Hardware die Iris eines Menschen erkennt.
+  Eventuell ist es möglich ein Schloss zu entwickeln, welches sich nur durch den Abgleich der richtigen Iris öffnet.
 
 ## Verwendete Technologie
   ResPi
