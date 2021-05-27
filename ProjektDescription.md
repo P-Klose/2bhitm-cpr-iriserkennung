@@ -64,7 +64,7 @@ Der Chart wird mit Daten von dem Python Programms versogt.
   Theorie Besprechung, recherge zu den anschließenden Aufgaben (OpenCV Iris),(von Py Program zu HTML Chart)
 
 
-### Vorgegebene Technologien
+## Vorgegebene Technologien
 #### SW
 - OpenCV: https://opencv.org/
 - Java Framework: highChart oder chartJS
