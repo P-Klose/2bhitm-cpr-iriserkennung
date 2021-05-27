@@ -42,7 +42,7 @@
   Problemlosen Prototypen vorstellen
   
 ## Protokoll
-### Anwesenhiet
+### Anwesenheit
 Zuerst wurde auf die SD Kart ein passendes Image gespielt und der Raspberry zum laufen gebracht.
 
 In weiterer Folge war die Aufgabe, dass die Kamera funktionen soll. 
