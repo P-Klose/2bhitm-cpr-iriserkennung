@@ -43,15 +43,16 @@
   
 ## Protokoll
 ### Anwesenheit
-Zuerst wurde auf die SD Kart ein passendes Image gespielt und der Raspberry zum laufen gebracht.
+Zuerst wurde auf die SD-Karte ein passendes Image gespielt und der Raspberry zum Laufen gebracht.
 
-In weiterer Folge war die Aufgabe, dass die Kamera funktionen soll. 
+In weiterer Folge war die Aufgabe, dass die Kamera funktionieren soll.
 Dies war durch ein Tutorial nicht sehr Kompliziert Link: https://www.youtube.com/watch?v=bpzGN35oaJ4&t=106s
+Nach einigem Probieren und Rückschlägen durch zB.: Defektes Kameramodul, SD-Karte zu langsam, usw.
+Ist es gelungen die Kamera zum Laufen zu bringen und ein Bild/Video aufzunehmen.
 
-Nach einigem Probieren und Rückschlägen durch zB.: Defektes Kameramodul, SD Karte zu langsam, usw. Ist es gelungen die Kamera zum laufen zu bringen und ein Bild/Video aufzunehmen.
-
-Bereitstellung eines Codes durch den Professor. Dieser muss in anschließender Folge noch bearbeitet und adaptiert werden.
+Bereitstellung eines Codes durch den Professor. Dieser muss in anschließender Folge noch bearbeitet und adaptiert werden. 
 Durch den Bereitgestellten Code wurde das Gesicht erkannt und muss nun auf die Iris adaptiert werden.
+
 
 ### Distance
 Server Programmieren und zum laufen gebracht.
