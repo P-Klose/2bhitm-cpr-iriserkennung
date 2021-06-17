@@ -1,3 +1,5 @@
+let myData = [];
+
 var ctx = document.getElementById('myChart').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'line',
@@ -22,6 +24,21 @@ var myChart = new Chart(ctx, {
     }
 });
 
-
 const DATA_COUNT = 7;
 const NUMBER_CFG = {count: DATA_COUNT, min: -100, max: 100};
+
+function loadData(){
+    fetch('http://localhost:3000/chartData')
+        // callback stack
+        .then( (response) => {
+            return response.json();
+        })
+        .then( (erg) => {
+            myData.push(erg);
+        })
+        .catch( (error) => {
+            console.log('Error:', error);
+        })
+}
+
+
