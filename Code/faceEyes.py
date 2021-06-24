@@ -2,6 +2,9 @@ import io
 import picamera
 import cv2
 import numpy
+#for post request
+import requests
+
 
 #Load a cascade file for detecting faces
 face_cascade = cv2.CascadeClassifier(cv2.data.haarcascades + 'haarcascade_frontalface_alt.xml')
@@ -40,7 +43,10 @@ while True:
         for (x,y,w,h) in eyes:
             cv2.circle(image,(x+int(w/2),y+int(w/2)),20,(255,255,255),2)
             
-             
+        url = 'http://localhost:3000/ChartData'
+        myObj = {'faces':len(faces),'eyes':len(eyes)}
+
+        x = requests.post(url, data = myObj)
 
         #cv2.destroyAllWindows() 
             
